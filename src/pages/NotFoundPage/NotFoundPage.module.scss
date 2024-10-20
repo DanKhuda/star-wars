@@ -1,0 +1,36 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  padding: 20px;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #3F74AC;
+}
+
+.message {
+  font-size: 1.25rem;
+  margin: 1rem 0;
+}
+
+.homeLink {
+  margin-top: 1rem;
+  color: #3F74AC;
+  text-decoration: underline;
+  cursor: pointer;
+
+  &:hover {
+    color: #1F4D6B;
+  }
+}
+
+.image {
+  margin-top: 20px;
+  width: 200px;
+}

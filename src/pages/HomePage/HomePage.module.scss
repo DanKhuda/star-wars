@@ -1,0 +1,29 @@
+@import '../../styles/mixins.scss';
+
+.homePageContainer {
+  max-width: 1024px;
+  margin-inline: auto;
+  padding-inline: 20px;
+}
+
+.homePageTitle {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-block: 1rem;
+  color: #3F74AC;
+}
+
+.peopleListWrapper {
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.paginationWrapper {
+  padding-block: 1rem;
+
+  @include on-tablet {
+    padding-block: 2rem;
+  }
+}

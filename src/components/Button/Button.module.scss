@@ -1,0 +1,44 @@
+@import '../../styles/mixins.scss';
+
+.button {
+  font-size: 1rem;
+  padding-inline: .5rem;
+  font-weight: 600;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+
+  &:last-child {
+    border-right: .1rem solid #e5e5e5;
+  }
+
+  @include on-tablet {
+    font-size: .9rem;
+    padding-inline: 1rem;
+  }
+
+  @include on-desktop {
+    font-size: 1rem;
+    border: .1rem solid #e5e5e5;
+    border-right: none;
+    padding: .5rem 1rem;
+    transition: 0.3s;
+
+    &:hover {
+      color: #2DC3EC;
+      background-color: #f8f8f8;
+    }
+
+    &:disabled {
+      cursor: not-allowed;
+    }
+  }
+}
+
+.isActive {
+  color: #3F74AC;
+
+  @include on-desktop {
+    background-color: #f8f8f8;
+  }
+}

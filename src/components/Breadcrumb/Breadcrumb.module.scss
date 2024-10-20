@@ -1,0 +1,14 @@
+@import '../../styles/mixins.scss';
+
+.breadcrumb {
+  margin: 1rem;
+  font-size: 1rem;
+  color: #9F999A;
+}
+
+.link {
+  text-decoration: none;
+  color: #3F74AC;
+
+  @include hover(color, #2DC3EC);
+}

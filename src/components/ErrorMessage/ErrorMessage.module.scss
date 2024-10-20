@@ -1,0 +1,15 @@
+.errorContainer {
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  color: #721c24;
+  padding: 1rem;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.errorMessage {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
